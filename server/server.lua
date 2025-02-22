@@ -1,7 +1,7 @@
 ESX = exports['es_extended']:getSharedObject()
 
 
--- If You Want To Change The Spawn Codes To Your Items That Will Make The Script Work.
+-- If you want to use different spawn codes for the items, change them here.
 ESX.RegisterUsableItem('loot_crate1', function(src)
     TriggerClientEvent('forcng:openitBaby', src, 'Tier1')
 end)
