@@ -1,6 +1,6 @@
 Config = {}
 
--- Add More Items As Needed
+-- Add More Items As Needed, Do not go past 100% chance.
 Config.FactionsCrate = {
     Tier1 = {
         {item = "water", chance = 100},
