@@ -1,0 +1,18 @@
+	["loot_crate1"] = {
+		label = "Loot Crate (Tier 1)",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+	["loot_crate2"] = {
+		label = "Loot Crate (Tier 2)",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+	["loot_crate3"] = {
+		label = "Loot Crate (Tier 3)",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
