@@ -24,11 +24,12 @@ AddEventHandler('forcng:openitBaby', function(tier)
 
     TaskPlayAnim(playerPed, animDict, animName, 8.0, -8.0, -1, 50, 0, false, false, false)
 
-    lib.progressBar({
+    lib.progressCircle({
         duration = 5000,
         label = "Opening Loot Crate...",
         useWhileDead = false,
-        canCancel = true
+        canCancel = true,
+        position = 'bottom'
     })
 
     ClearPedTasks(playerPed)
